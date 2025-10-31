@@ -1,7 +1,5 @@
 # Research Notebooks
 
-Our notebooks are part of the documentation which can be purchased on a monthly subscription via the [H&T Client Portal](https://portal.hudsonthames.org/).
-
 These notebooks provide additional theoretical elements, examples of the use of the algorithms implemented in the MlFinLab package. Research notebooks are a perfect tool to try algorithms hands-on and gain additional understanding of how they can be used on real data examples.
 
 ## Available Notebooks
@@ -13,6 +11,7 @@ The following is the directory structure for the Research notebooks with links t
 **Advances in Financial Machine Learning:**
 
 *Backtest Statistics:*
+- [Backtesting.ipynb](#backtestingipynb)
 - [Chapter14_BacktestStatistics.ipynb](#chapter14backteststatisticsipynb)
 
 *Bet Sizing:*
@@ -26,6 +25,10 @@ The following is the directory structure for the Research notebooks with links t
 *Ensemble Methods:*
 - [Ensemble_Methods.ipynb](#ensemble_methodsipynb)
 
+*Feature Engineering:*
+- [NoiseReduction.ipynb](#noisereductionipynb)
+- [Volatility_estimators.ipynb](#volatility_estimatorsipynb)
+
 *Feature Importance:*
 - [Chapter8_Exercises_Feature_Importance.ipynb](#chapter8exercises_feature_importanceipynb)
 - [Cluster_Feature_Importance.ipynb](#cluster_feature_importanceipynb)
@@ -35,6 +38,7 @@ The following is the directory structure for the Research notebooks with links t
 - [ETF_trick_hedge.ipynb](#etf_trick_hedgeipynb)
 - [Futures_Roll_Trick.ipynb](#futures_roll_trickipynb)
 - [Getting Started.ipynb](#getting-startedipynb)
+- [online_data_structures.ipynb](#online_data_structuresipynb)
 - [Sample_Techniques.ipynb](#sample_techniquesipynb)
 
 *Fractionally Differentiated Features:*
@@ -45,6 +49,7 @@ The following is the directory structure for the Research notebooks with links t
 
 *Labelling:*
 - [BBand-Question.ipynb](#bband-questionipynb)
+- [Chapter3_Labeling.ipynb](#chapter3_labelingipynb)
 - [Chapter3-Part1.ipynb](#chapter3-part1ipynb)
 - [Meta-Labels-MNIST.ipynb](#meta-labels-mnistipynb)
 - [Trend-Follow-Question.ipynb](#trend-follow-questionipynb)
@@ -54,7 +59,14 @@ The following is the directory structure for the Research notebooks with links t
 
 *Microstructural Features:*
 - [Chapter19-Questions.ipynb](#chapter19-questionsipynb)
+- [Entropy_Measures.ipynb](#entropy_measuresipynb)
+- [First_Generation.ipynb](#first_generationipynb)
 - [Microstructural-Features.ipynb](#microstructural-featuresipynb)
+- [Second_Generation.ipynb](#second_generationipynb)
+- [Third_Generation.ipynb](#third_generationipynb)
+
+*Models:*
+- [History_Weighted_Regression.ipynb](#history_weighted_regressionipynb)
 
 *Sample Weights:*
 - [Chapter4_Exercises.ipynb](#chapter4exercisesipynb)
@@ -116,6 +128,10 @@ The following is the directory structure for the Research notebooks with links t
 
 ### Advances in Financial Machine Learning
 
+#### Backtesting.ipynb
+
+This notebook provides a comprehensive overview of backtesting methodologies for trading strategies. It covers fundamental concepts of backtesting, common pitfalls to avoid, and best practices for realistic performance evaluation. The notebook demonstrates how to properly account for transaction costs, slippage, and market impact when evaluating strategy performance.
+
 #### Chapter14_BacktestStatistics.ipynb
 
 This notebook covers some of the statistics that are used for understanding the characteristics of a strategy related to levels of risk and return. It also provides tools to test if the strategy satisfies desired profitability benchmarks (Sharpe ratio in particular). Statistics in this chapter cover the following topics:
@@ -147,6 +163,14 @@ Cross-Validation is a Machine Learning technique aiming to determine how the per
 
 In this research notebook, some of the details about the two of the most popular ML ensemble methods are discussed. The goal of this notebook is to investigate the efficacy of the methods, and how to avoid common errors that lead to their misuse in finance.
 
+#### NoiseReduction.ipynb
+
+This notebook demonstrates noise reduction techniques for financial time series data. It covers various filtering methods including the Savitzky-Golay filter and wavelets, helping to separate signal from noise in price data. The methods shown are essential for feature engineering and improving model performance by reducing overfitting to noisy market data.
+
+#### Volatility_estimators.ipynb
+
+This notebook explores various volatility estimation techniques beyond simple historical volatility. It implements advanced estimators such as Parkinson, Garman-Klass, Rogers-Satchell, and Yang-Zhang volatility measures. These estimators leverage high-low-open-close price data to provide more accurate volatility estimates than standard methods, which is crucial for risk management and option pricing.
+
 #### Chapter8_Exercises_Feature_Importance.ipynb
 
 One of the most pervasive mistakes in financial research is to take some data, run it through an ML algorithm, backtest the predictions, and repeat the sequence until a nice-looking backtest shows up. Academic journals are filled with such pseudo-discoveries, and even large hedge funds constantly fall into this trap.
@@ -177,6 +201,10 @@ The purpose of this notebook is to act as a tutorial to bridge the gap between i
 
 For this tutorial, we made use of the sample data provided by TickWrite LLC. Using S&P500 E-mini futures.
 
+#### online_data_structures.ipynb
+
+This notebook demonstrates online (streaming) implementations of financial data structures. Unlike batch processing methods, online data structures can be updated incrementally as new data arrives, making them suitable for real-time trading systems. The notebook covers online versions of dollar bars, volume bars, and imbalance bars, showing how to efficiently process tick data in a streaming fashion.
+
 #### Sample_Techniques.ipynb
 
 In this notebook data analysis is performed on a series of E-mini S&P 500 futures tick data:
@@ -200,6 +228,10 @@ Hyper-parameter tuning is an essential step in building Machine Learning algorit
 This notebook answers question 3.5 form the textbook Advances in Financial Machine Learning.
 
 "Develop a mean-reverting strategy based on Bollinger bands. For each observation, the model suggests a side, but not a size of the bet".
+
+#### Chapter3_Labeling.ipynb
+
+This comprehensive notebook covers the complete Chapter 3 from "Advances in Financial Machine Learning" on labeling methods. It includes implementations of the triple-barrier method, meta-labeling, and various labeling techniques for financial machine learning. The notebook demonstrates how to properly label financial data for supervised learning, including handling of concurrent labels and sample weights.
 
 #### Chapter3-Part1.ipynb
 
@@ -225,9 +257,29 @@ This notebook explores the exercises at the back of Chapter-16 in the book "Adva
 
 Market microstructure features aim to tease out useful information from the trading behavior of market participants on exchanges. These features have become more popular with the increased amount and granularity of data provided by exchanges. As a result, multiple models of liquidity, uncertainty, and price impact have emerged from this data.
 
+#### Entropy_Measures.ipynb
+
+This notebook explores entropy-based measures for analyzing market microstructure. It covers Shannon entropy, plug-in entropy estimation, and Lempel-Ziv entropy complexity to quantify information content and predictability in financial time series. These entropy measures help assess market efficiency and can be used as features for machine learning models.
+
+#### First_Generation.ipynb
+
+This notebook implements first-generation microstructural features based on classical market microstructure theory. It includes bid-ask spread analysis, trade imbalance measures, and basic liquidity metrics. These foundational features capture fundamental aspects of order flow and market liquidity that are essential for understanding price formation.
+
 #### Microstructural-Features.ipynb
 
 Market microstructure features aim to tease out useful information from the trading behavior of market participants on exchanges. These features have become more popular with the increased amount and granularity of data provided by exchanges. As a result, multiple models of liquidity, uncertainty, and price impact have emerged from this data.
+
+#### Second_Generation.ipynb
+
+This notebook presents second-generation microstructural features that build upon classical measures. It includes VPIN (Volume-Synchronized Probability of Informed Trading), Kyle's lambda, and Amihud's illiquidity measure. These advanced features better capture information asymmetry, price impact, and market depth dynamics in modern electronic markets.
+
+#### Third_Generation.ipynb
+
+This notebook covers third-generation microstructural features based on recent research advances. It implements features derived from high-frequency data patterns, including microstructure noise measures, effective spread decomposition, and adverse selection components. These cutting-edge features are particularly useful for high-frequency trading strategies and market making applications.
+
+#### History_Weighted_Regression.ipynb
+
+This notebook demonstrates the History Weighted Regression (HWR) method for making predictions. HWR selects relevant historical instances based on similarity and informativeness to the current observation, then runs regression on this subsample. The method is based on papers by Czasonis, Kritzman, and Turkington, offering a novel approach to forecast factor returns by focusing on the most relevant historical periods rather than using all available data.
 
 #### Chapter4_Exercises.ipynb
 
