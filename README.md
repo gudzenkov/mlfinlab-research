@@ -10,117 +10,149 @@ The following is the directory structure for the Research notebooks with links t
 
 **Advances in Financial Machine Learning:**
 
-*Backtest Statistics:*
-- [Backtesting.ipynb](#backtestingipynb)
-- [Chapter14_BacktestStatistics.ipynb](#chapter14backteststatisticsipynb)
+**PART 1: DATA ANALYSIS**
 
-*Bet Sizing:*
-- [Chapter10_Exercises.ipynb](#chapter10exercisesipynb)
-- [Chapter10_Exercises (mlfinlab).ipynb](#chapter10exercises-mlfinlabipynb)
-- [ef3m_testing.ipynb](#ef3m_testingipynb)
+*Chapter 2 - Financial Data Structures:*
+- [Dollar-Imbalance-Bars.ipynb](Advances%20in%20Financial%20Machine%20Learning/Financial%20Data%20Structures/Dollar-Imbalance-Bars.ipynb) - [Abstract](#dollar-imbalance-barsipynb)
+- [ETF_trick_hedge.ipynb](Advances%20in%20Financial%20Machine%20Learning/Financial%20Data%20Structures/ETF_trick_hedge.ipynb) - [Abstract](#etf_trick_hedgeipynb)
+- [Futures_Roll_Trick.ipynb](Advances%20in%20Financial%20Machine%20Learning/Financial%20Data%20Structures/Futures_Roll_Trick.ipynb) - [Abstract](#futures_roll_trickipynb)
+- [Getting Started.ipynb](Advances%20in%20Financial%20Machine%20Learning/Financial%20Data%20Structures/Getting%20Started.ipynb) - [Abstract](#getting-startedipynb)
+- [online_data_structures.ipynb](Advances%20in%20Financial%20Machine%20Learning/Financial%20Data%20Structures/online_data_structures.ipynb) - [Abstract](#online_data_structuresipynb)
+- [Sample_Techniques.ipynb](Advances%20in%20Financial%20Machine%20Learning/Financial%20Data%20Structures/Sample_Techniques.ipynb) - [Abstract](#sample_techniquesipynb)
+- [NoiseReduction.ipynb](Advances%20in%20Financial%20Machine%20Learning/Feature%20Engineering/NoiseReduction.ipynb) - [Abstract](#noisereductionipynb)
+- [Volatility_estimators.ipynb](Advances%20in%20Financial%20Machine%20Learning/Feature%20Engineering/Volatility_estimators.ipynb) - [Abstract](#volatility_estimatorsipynb)
 
-*Cross-Validation in Finance:*
-- [Chapter7_Exercises_CrossValidation.ipynb](#chapter7exercises_crossvalidationipynb)
+*Chapter 3 - Labeling:*
+- [BBand-Question.ipynb](Advances%20in%20Financial%20Machine%20Learning/Labelling/BBand-Question.ipynb) - [Abstract](#bband-questionipynb)
+- [Chapter3_Labeling.ipynb](Advances%20in%20Financial%20Machine%20Learning/Labelling/Chapter3_Labeling.ipynb) - [Abstract](#chapter3_labelingipynb)
+- [Chapter3-Part1.ipynb](Advances%20in%20Financial%20Machine%20Learning/Labelling/Chapter3-Part1.ipynb) - [Abstract](#chapter3-part1ipynb)
+- [Meta-Labels-MNIST.ipynb](Advances%20in%20Financial%20Machine%20Learning/Labelling/Meta-Labels-MNIST.ipynb) - [Abstract](#meta-labels-mnistipynb)
+- [Trend-Follow-Question.ipynb](Advances%20in%20Financial%20Machine%20Learning/Labelling/Trend-Follow-Question.ipynb) - [Abstract](#trend-follow-questionipynb)
+- [Labels_Fixed_Horizon.ipynb](Labeling/Labels%20Fixed%20Horizon/Fixed%20Time%20Horizon.ipynb) - [Abstract](#labels_fixed_horizonipynb)
 
-*Ensemble Methods:*
-- [Ensemble_Methods.ipynb](#ensemble_methodsipynb)
+*Chapter 4 - Sample Weights:*
+- [Chapter4_Exercises.ipynb](Advances%20in%20Financial%20Machine%20Learning/Sample%20Weights/Chapter4_Exercises.ipynb) - [Abstract](#chapter4exercisesipynb)
+- [Sequential_Bootstrapping.ipynb](Advances%20in%20Financial%20Machine%20Learning/Sample%20Weights/Sequential_Bootstrapping.ipynb) - [Abstract](#sequential_bootstrappingipynb)
+- [Trend-Follow-Question-Extended-SB-Cross-Val.ipynb](Advances%20in%20Financial%20Machine%20Learning/Sample%20Weights/Trend-Follow-Question-Extended-SB-Cross-Val.ipynb) - [Abstract](#trend-follow-question-extended-sb-cross-valipynb)
 
-*Feature Engineering:*
-- [NoiseReduction.ipynb](#noisereductionipynb)
-- [Volatility_estimators.ipynb](#volatility_estimatorsipynb)
+*Chapter 5 - Fractionally Differentiated Features:*
+- [Chapter5_Exercises.ipynb](Advances%20in%20Financial%20Machine%20Learning/Fractionally%20Differentiated%20Features/Chapter5_Exercises.ipynb) - [Abstract](#chapter5exercisesipynb)
 
-*Feature Importance:*
-- [Chapter8_Exercises_Feature_Importance.ipynb](#chapter8exercises_feature_importanceipynb)
-- [Cluster_Feature_Importance.ipynb](#cluster_feature_importanceipynb)
+**PART 2: MODELLING**
 
-*Financial Data Structures:*
-- [Dollar-Imbalance-Bars.ipynb](#dollar-imbalance-barsipynb)
-- [ETF_trick_hedge.ipynb](#etf_trick_hedgeipynb)
-- [Futures_Roll_Trick.ipynb](#futures_roll_trickipynb)
-- [Getting Started.ipynb](#getting-startedipynb)
-- [online_data_structures.ipynb](#online_data_structuresipynb)
-- [Sample_Techniques.ipynb](#sample_techniquesipynb)
+*Chapter 6 - Ensemble Methods:*
+- [Ensemble_Methods.ipynb](Advances%20in%20Financial%20Machine%20Learning/Ensemble%20Methods/Ensemble_Methods.ipynb) - [Abstract](#ensemble_methodsipynb)
 
-*Fractionally Differentiated Features:*
-- [Chapter5_Exercises.ipynb](#chapter5exercisesipynb)
+*Chapter 7 - Cross-Validation in Finance:*
+- [Chapter7_Exercises_CrossValidation.ipynb](Advances%20in%20Financial%20Machine%20Learning/Cross-Validation%20in%20Finance/Chapter7_Exercises_CrossValidation.ipynb) - [Abstract](#chapter7exercises_crossvalidationipynb)
 
-*Hyper-Parameter Tuning:*
-- [Hyperparameter Tuning with CV.ipynb](#hyperparameter-tuning-with-cvipynb)
+*Chapter 8 - Feature Importance:*
+- [Chapter8_Exercises_Feature_Importance.ipynb](Advances%20in%20Financial%20Machine%20Learning/Feature%20Importance/Chapter8_Exercises_Feature_Importance.ipynb) - [Abstract](#chapter8exercises_feature_importanceipynb)
+- [Cluster_Feature_Importance.ipynb](Advances%20in%20Financial%20Machine%20Learning/Feature%20Importance/Cluster_Feature_Importance.ipynb) - [Abstract](#cluster_feature_importanceipynb)
 
-*Labelling:*
-- [BBand-Question.ipynb](#bband-questionipynb)
-- [Chapter3_Labeling.ipynb](#chapter3_labelingipynb)
-- [Chapter3-Part1.ipynb](#chapter3-part1ipynb)
-- [Meta-Labels-MNIST.ipynb](#meta-labels-mnistipynb)
-- [Trend-Follow-Question.ipynb](#trend-follow-questionipynb)
+*Chapter 9 - Hyper-Parameter Tuning with Cross-Validation:*
+- [Hyperparameter Tuning with CV.ipynb](Advances%20in%20Financial%20Machine%20Learning/Hyper-Parameter%20Tuning/Hyperparameter%20Tuning%20with%20CV.ipynb) - [Abstract](#hyperparameter-tuning-with-cvipynb)
 
-*Machine Learning Asset Allocation:*
-- [Chapter16.ipynb](#chapter16ipynb)
+**PART 3: BACKTESTING**
 
-*Microstructural Features:*
-- [Chapter19-Questions.ipynb](#chapter19-questionsipynb)
-- [Entropy_Measures.ipynb](#entropy_measuresipynb)
-- [First_Generation.ipynb](#first_generationipynb)
-- [Microstructural-Features.ipynb](#microstructural-featuresipynb)
-- [Second_Generation.ipynb](#second_generationipynb)
-- [Third_Generation.ipynb](#third_generationipynb)
+*Chapter 10 - Bet Sizing:*
+- [Chapter10_Exercises.ipynb](Advances%20in%20Financial%20Machine%20Learning/Bet%20Sizing/Chapter10_Exercises.ipynb) - [Abstract](#chapter10exercisesipynb)
+- [Chapter10_Exercises (mlfinlab).ipynb](Advances%20in%20Financial%20Machine%20Learning/Bet%20Sizing/Chapter10_Exercises%20(mlfinlab).ipynb) - [Abstract](#chapter10exercises-mlfinlabipynb)
+- [ef3m_testing.ipynb](Advances%20in%20Financial%20Machine%20Learning/Bet%20Sizing/ef3m_testing.ipynb) - [Abstract](#ef3m_testingipynb)
+
+*Chapter 11 - The Dangers of Backtesting:*
+- [Backtesting.ipynb](Advances%20in%20Financial%20Machine%20Learning/Backtest%20Statistics/Backtesting.ipynb) - [Abstract](#backtestingipynb)
+- [Backtest Overfitting.ipynb](Backtest%20Overfitting/Backtesting.ipynb) - [Abstract](#backtest-overfittingipynb)
+
+*Chapter 12 - Backtesting through Cross-Validation:*
+(No notebooks found)
+
+*Chapter 13 - Backtesting on Synthetic Data:*
+(No notebooks found)
+
+*Chapter 14 - Backtest Statistics:*
+- [Chapter14_BacktestStatistics.ipynb](Advances%20in%20Financial%20Machine%20Learning/Backtest%20Statistics/Chapter14_BacktestStatistics.ipynb) - [Abstract](#chapter14backteststatisticsipynb)
+
+*Chapter 15 - Understanding Strategy Risk:*
+- [Chapter15_Exercises_UnderstandingStrategyRisk.ipynb](Advances%20in%20Financial%20Machine%20Learning/Understanding%20Strategy%20Risk/Chapter15_Exercises_UnderstandingStrategyRisk.ipynb) - [Abstract](#chapter15exercises_understandingstrategyripynb)
+
+*Chapter 16 - Machine Learning Asset Allocation:*
+- [Chapter16.ipynb](Advances%20in%20Financial%20Machine%20Learning/Machine%20Learning%20Asset%20Allocation/Chapter16.ipynb) - [Abstract](#chapter16ipynb)
+- [HERC_&_HRP_Comparison.ipynb](Portfolio%20Optimisation%20Tutorials/HERC%20%26%20HRP%20Comparison/HERC_HRP_comparison.ipynb) - [Abstract](#herc_hrp_comparisonipynb)
+- [Hierarchical_Equal_Risk_Contribution (HERC).ipynb](Portfolio%20Optimisation%20Tutorials/Hierarchical%20Equal%20Risk%20Contribution%20(HERC)/HERC%20Tutorial%20Notebook.ipynb) - [Abstract](#hierarchical_equal_risk_contribution-hercipynb)
+- [Hierarchical_Risk_Parity_(HRP).ipynb](Portfolio%20Optimisation%20Tutorials/Hierarchical%20Risk%20Parity%20(HRP)/HRP%20Notebook.ipynb) - [Abstract](#hierarchical_risk_parity_hrpipynb)
+- [Mean_Variance_Optimisation_(MVO).ipynb](Portfolio%20Optimisation%20Tutorials/Mean%20Variance%20Optimisation%20(MVO)/MVO%20Tutorial%20Notebook.ipynb) - [Abstract](#mean_variance_optimisation_mvoipynb)
+- [Nested_Clustered_Optimisation_(NCO).ipynb](Portfolio%20Optimisation%20Tutorials/Nested%20Clustered%20Optimisation%20(NCO)/NCO.ipynb) - [Abstract](#nested_clustered_optimisation_ncoipynb)
+- [Risk_Estimators.ipynb](Portfolio%20Optimisation%20Tutorials/Risk%20Estimators/RiskEstimators.ipynb) - [Abstract](#risk_estimatorsipynb)
+- [Theory_Implied_Correlation_(TIC).ipynb](Portfolio%20Optimisation%20Tutorials/Theory%20Implied%20Correlation%20(TIC)/TIC.ipynb) - [Abstract](#theory_implied_correlation_ticipynb)
+
+**PART 4: USEFUL FINANCIAL FEATURES**
+
+*Chapter 17 - Structural Breaks:*
+(No notebooks found)
+
+*Chapter 18 - Entropy Features:*
+- [Entropy_Measures.ipynb](Advances%20in%20Financial%20Machine%20Learning/Microstructural%20Features/Entropy_Measures.ipynb) - [Abstract](#entropy_measuresipynb)
+
+*Chapter 19 - Microstructural Features:*
+- [Chapter19-Questions.ipynb](Advances%20in%20Financial%20Machine%20Learning/Microstructural%20Features/Chapter19-Questions.ipynb) - [Abstract](#chapter19-questionsipynb)
+- [First_Generation.ipynb](Advances%20in%20Financial%20Machine%20Learning/Microstructural%20Features/First_Generation.ipynb) - [Abstract](#first_generationipynb)
+- [Microstructural-Features.ipynb](Advances%20in%20Financial%20Machine%20Learning/Microstructural%20Features/Microstructural-Features.ipynb) - [Abstract](#microstructural-featuresipynb)
+- [Second_Generation.ipynb](Advances%20in%20Financial%20Machine%20Learning/Microstructural%20Features/Second_Generation.ipynb) - [Abstract](#second_generationipynb)
+- [Third_Generation.ipynb](Advances%20in%20Financial%20Machine%20Learning/Microstructural%20Features/Third_Generation.ipynb) - [Abstract](#third_generationipynb)
+
+**PART 5: HIGH-PERFORMANCE COMPUTING RECIPES**
+
+*Chapter 20 - Multiprocessing and Vectorization:*
+(No notebooks found)
+
+*Chapter 21 - Brute Force and Quantum Computers:*
+(No notebooks found)
+
+*Chapter 22 - High-Performance Computational Intelligence and Forecasting Technologies:*
+(No notebooks found)
+
+**Additional Notebooks (Not in AFML Book):**
 
 *Models:*
-- [History_Weighted_Regression.ipynb](#history_weighted_regressionipynb)
+- [History_Weighted_Regression.ipynb](Advances%20in%20Financial%20Machine%20Learning/Models/History_Weighted_Regression.ipynb) - [Abstract](#history_weighted_regressionipynb)
 
-*Sample Weights:*
-- [Chapter4_Exercises.ipynb](#chapter4exercisesipynb)
-- [Sequential_Bootstrapping.ipynb](#sequential_bootstrappingipynb)
-- [Trend-Follow-Question-Extended-SB-Cross-Val.ipynb](#trend-follow-question-extended-sb-cross-valipynb)
+---
 
-*Understanding Strategy Risk:*
-- [Chapter15_Exercises_UnderstandingStrategyRisk.ipynb](#chapter15exercises_understandingstrategyripynb)
-
-**Backtest Overfitting:**
-- [Backtest Overfitting.ipynb](#backtest-overfittingipynb)
+## Beyond AFML: Additional MlFinLab Notebooks
 
 **Codependence:**
-- [Codependence_by_Marti.ipynb](#codependence_by_martiipynb)
-- [Optimal_Transport.ipynb](#optimal_transportipynb)
+- [Codependence_by_Marti.ipynb](Codependence/Codependence%20by%20Marti/codependence_by_marti.ipynb) - [Abstract](#codependence_by_martiipynb)
+- [Optimal_Transport.ipynb](Codependence/Optimal%20Transport/optimal_transport.ipynb) - [Abstract](#optimal_transportipynb)
 
 **Data Generation:**
-- [Bootstrap.ipynb](#bootstrapipynb)
-- [CorrGAN.ipynb](#corrganipynb)
-- [Correlated_Random_Walks.ipynb](#correlated_random_walksipynb)
-- [HCBM.ipynb](#hcbmipynb)
-- [Vines.ipynb](#vinesipynb)
+- [Bootstrap.ipynb](Data%20Generation/Bootstrap/bootstrap.ipynb) - [Abstract](#bootstrapipynb)
+- [CorrGAN.ipynb](Data%20Generation/CorrGAN/corrgan.ipynb) - [Abstract](#corrganipynb)
+- [Correlated_Random_Walks.ipynb](Data%20Generation/Correlated%20Random%20Walks/correlated_random_walks.ipynb) - [Abstract](#correlated_random_walksipynb)
+- [HCBM.ipynb](Data%20Generation/HCBM/hcbm.ipynb) - [Abstract](#hcbmipynb)
+- [Vines.ipynb](Data%20Generation/Vines/vines.ipynb) - [Abstract](#vinesipynb)
 
-**Labeling:**
-- [Labeling_vs_Benchmark.ipynb](#labeling_vs_benchmarkipynb)
-- [Labels_Excess_Over_Mean.ipynb](#labels_excess_over_meanipynb)
-- [Labels_Excess_Over_Median.ipynb](#labels_excess_over_medianipynb)
-- [Labels_Fixed_Horizon.ipynb](#labels_fixed_horizonipynb)
-- [Labels_Matrix_Flags.ipynb](#labels_matrix_flagsipynb)
-- [Labels_Raw_Return.ipynb](#labels_raw_returnipynb)
-- [Labels_Tail_Sets.ipynb](#labels_tail_setsipynb)
+**Labeling (MlFinLab Extensions):**
+- [Labeling_vs_Benchmark.ipynb](Labeling/Labeling%20vs%20Benchmark/Labeling%20vs%20Benchmark.ipynb) - [Abstract](#labeling_vs_benchmarkipynb)
+- [Labels_Excess_Over_Mean.ipynb](Labeling/Labels%20Excess%20Over%20Mean/excess_over_mean.ipynb) - [Abstract](#labels_excess_over_meanipynb)
+- [Labels_Excess_Over_Median.ipynb](Labeling/Labels%20Excess%20Over%20Median/Excess%20Over%20Median.ipynb) - [Abstract](#labels_excess_over_medianipynb)
+- [Labels_Matrix_Flags.ipynb](Labeling/Labels%20Matrix%20Flags/Matrix%20Flag%20Labels.ipynb) - [Abstract](#labels_matrix_flagsipynb)
+- [Labels_Raw_Return.ipynb](Labeling/Labels%20Raw%20Return/Raw%20Return.ipynb) - [Abstract](#labels_raw_returnipynb)
+- [Labels_Tail_Sets.ipynb](Labeling/Labels%20Tail%20Sets/Tail-Sets.ipynb) - [Abstract](#labels_tail_setsipynb)
 
 **Networks:**
-- [MST.ipynb](#mstipynb)
-- [PMFG.ipynb](#pmfgipynb)
+- [MST.ipynb](Networks/mst.ipynb) - [Abstract](#mstipynb)
+- [PMFG.ipynb](Networks/pmfg.ipynb) - [Abstract](#pmfgipynb)
 
 **Online Portfolio Selection:**
-- [Data Selection.ipynb](#data-selectionipynb)
-- [Introduction to Online Portfolio Selection.ipynb](#introduction-to-online-portfolio-selectionipynb)
-- [Online Portfolio Selection - Mean Reversion.ipynb](#online-portfolio-selection---mean-reversionipynb)
-- [Online Portfolio Selection - Momentum.ipynb](#online-portfolio-selection---momentumipynb)
-- [Online Portfolio Selection - Pattern Matching.ipynb](#online-portfolio-selection---pattern-matchingipynb)
+- [Data Selection.ipynb](Online%20Portfolio%20Selection/Data%20Selection.ipynb) - [Abstract](#data-selectionipynb)
+- [Introduction to Online Portfolio Selection.ipynb](Online%20Portfolio%20Selection/Introduction%20to%20Online%20Portfolio%20Selection.ipynb) - [Abstract](#introduction-to-online-portfolio-selectionipynb)
+- [Online Portfolio Selection - Mean Reversion.ipynb](Online%20Portfolio%20Selection/Online%20Portfolio%20Selection%20-%20Mean%20Reversion.ipynb) - [Abstract](#online-portfolio-selection---mean-reversionipynb)
+- [Online Portfolio Selection - Momentum.ipynb](Online%20Portfolio%20Selection/Online%20Portfolio%20Selection%20-%20Momentum.ipynb) - [Abstract](#online-portfolio-selection---momentumipynb)
+- [Online Portfolio Selection - Pattern Matching.ipynb](Online%20Portfolio%20Selection/Online%20Portfolio%20Selection%20-%20Pattern%20Matching.ipynb) - [Abstract](#online-portfolio-selection---pattern-matchingipynb)
 
 **Optimal Mean Reversion:**
-- [OU_model.ipynb](#ou_modelipynb)
-
-**Portfolio Optimisation Tutorials:**
-- [HERC_&_HRP_Comparison.ipynb](#herc_hrp_comparisonipynb)
-- [Hierarchical_Equal_Risk_Contribution (HERC).ipynb](#hierarchical_equal_risk_contribution-hercipynb)
-- [Hierarchical_Risk_Parity_(HRP).ipynb](#hierarchical_risk_parity_hrpipynb)
-- [Mean_Variance_Optimisation_(MVO).ipynb](#mean_variance_optimisation_mvoipynb)
-- [Nested_Clustered_Optimisation_(NCO).ipynb](#nested_clustered_optimisation_ncoipynb)
-- [Risk_Estimators.ipynb](#risk_estimatorsipynb)
-- [Theory_Implied_Correlation_(TIC).ipynb](#theory_implied_correlation_ticipynb)
+- [OU_model.ipynb](Optimal%20Mean%20Reversion/ou_model.ipynb) - [Abstract](#ou_modelipynb)
 
 ---
 
